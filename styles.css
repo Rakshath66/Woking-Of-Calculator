@@ -1,0 +1,21 @@
+.container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    height: 350px;
+    width: 180px;
+}
+.cal-buttons{
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 20px; */
+}
+.cal-buttons:hover{
+    background-color: yellow;
+    transform: 0.4s;
+}
